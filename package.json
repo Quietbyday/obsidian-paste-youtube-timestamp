@@ -1,6 +1,6 @@
 {
-	"name": "obsidian-paste-youtube-timestamp",
-	"version": "0.1.0",
+	"name": "paste-youtube-timestamp",
+	"version": "0.1.1-beta",
 	"description": "Converts pasted YouTube timestamp URLs into readable Markdown links",
 	"main": "main.js",
 	"scripts": {
