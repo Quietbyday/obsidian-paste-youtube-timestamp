@@ -2,7 +2,7 @@
 
 An [Obsidian](https://obsidian.md) plugin that automatically converts pasted YouTube timestamp links into clean, readable Markdown links.
 
-## What it does
+## Usage
 
 When you paste a YouTube URL that includes a timestamp, the plugin replaces the raw URL with a Markdown link. The link text shows the timestamp in a human-readable format, while the URL remains intact so the link still takes you directly to that point in the video.
 
@@ -32,21 +32,16 @@ The plugin recognises timestamp links from all standard YouTube URL formats:
 - `https://www.youtube.com/watch?v=...&t=<seconds>` — full links
 - `https://m.youtube.com/watch?v=...&t=<seconds>` — mobile links
 
-## Installation
+## How to Install (Beta)
 
-1. Download `main.js` and `manifest.json` from the [latest release](../../releases/latest).
-2. Create a folder called `paste-youtube-timestamp` inside `<Your Vault>/.obsidian/plugins/`.
-3. Copy both files into that folder.
-4. In Obsidian, go to **Settings → Community plugins**, reload the plugin list, and enable **Paste YouTube Timestamp**.
+1. Install the **BRAT** plugin from the Obsidian Community Plugins store.
+2. Go to **Settings → Community plugins → BRAT** .
+3. Click **Add Beta plugin**.
+4. Paste the following repository URL: `https://github.com/Quietbyday/obsidian-paste-youtube-timestamp`
+5. Click **Add Plugin**. 
+6. Enable **"Paste YouTube Timestamp"** in Community plugins.
 
-## Building from source
-
-```bash
-npm install
-npm run build
-```
-
-This requires Node.js and produces `main.js` at the project root.
+To update to the latest beta version, go to BRAT and click **Check for updates** (or restart Obsidian).
 
 ## Author
 
