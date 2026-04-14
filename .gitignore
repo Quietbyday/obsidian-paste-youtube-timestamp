@@ -41,6 +41,9 @@ yarn-error.log*
 # Development notes
 dev_notes/
 
+# Build helper
+bundle.js
+
 # Temporary files
 *.tmp
 *.temp
